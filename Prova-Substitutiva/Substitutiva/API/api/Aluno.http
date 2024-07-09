@@ -1,0 +1,44 @@
+### Listar todas as tarefas
+GET http://localhost:pages/imc/listar{id}
+
+GET: http://localhost:pages/IMCs/{imc}}/alunos/{aluno}
+
+### Cadastrar 
+POST: http://localhost:/pages/aluno/cadastrar
+Content-Type: application/json
+
+
+{
+    "nome" : "Nicolas",
+    "datanasc" : "27042005",
+}
+
+
+POST: http://localhost:pages/imc/cadastrar
+Content-Type: application/json
+ 
+{
+    "nome": "gustavo",
+    " datanasc" : "2801200",
+    " altura ":"160",
+    " peso ":"66",
+    " IMC ":"19",
+    " classificação": "normal",
+    "Criacao ": "08072024",
+}
+
+PUT: http://localhost:pages/imc/alterar/{id}
+
+### Alterar 
+PUT: http://localhost:pages/imc/alterar/{id}
+Content-Type: application/json
+
+{
+    "nome": "joao",
+    " datanasc" : "2501200",
+    " altura ":"170",
+    " peso ":"77",
+    " IMC ":"19",
+    " classificação": "normal",
+    "Criacao ": "04062004",
+}
